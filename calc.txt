@@ -1,0 +1,9 @@
+box1str = get(handles.edit_box1,'string');
+box1num = str2num(box1str);
+box2str = get(handles.edit_box2,'string');
+box2num = str2num(box2str);
+ 
+box3num = box1num + box2num;
+box3str = num2str(box3num);
+ 
+set(handles.edit_box3,'string', box3str);
